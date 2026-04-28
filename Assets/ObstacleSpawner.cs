@@ -35,16 +35,18 @@ public class ObstacleSpawner : MonoBehaviour
 
         if (pattern == 0)
         {
+            // single obstacle
             SpawnInLane(RandomLane());
         }
         else if (pattern == 1)
         {
-            int lane = RandomLane();
-            SpawnInLane(lane);
-            SpawnInLane((lane + 1) % 3);
+            // force decision (left or right)
+            SpawnInLane(0);
+            SpawnInLane(2);
         }
         else
         {
+            // block middle (forces lane change)
             SpawnInLane(1);
         }
     }
@@ -52,32 +54,29 @@ public class ObstacleSpawner : MonoBehaviour
     void SpawnInLane(int lane)
     {
         float x = (lane - 1) * laneDistance;
+
         Vector3 spawnPos = new Vector3(x, 0.5f, spawnZ);
 
         GameObject obj = Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
 
         int type = Random.Range(0, 3);
 
-        Obstacle obstacle = obj.AddComponent<Obstacle>();
-
-        if (type == 1)
-        {
-            // TALL → requires jump
-            obj.transform.localScale = new Vector3(1, 2.5f, 1);
-            obj.transform.position += Vector3.up * 1f;
-            obstacle.type = ObstacleType.Tall;
-        }
-        else if (type == 2)
-        {
-            // LOW → requires slide
-            obj.transform.localScale = new Vector3(1, 0.5f, 1);
-            obj.transform.position += Vector3.up * 1f;
-            obstacle.type = ObstacleType.Low;
-        }
+        // 🔥 Shape variation
+        if (type == 0)
+            obj.transform.localScale = new Vector3(1, 1, 1); // normal
+        else if (type == 1)
+            obj.transform.localScale = new Vector3(1, 2.5f, 1); // tall (jump)
         else
-        {
-            obstacle.type = ObstacleType.Normal;
-        }
+            obj.transform.localScale = new Vector3(1, 0.5f, 1); // low (slide)
+
+        // 🔥 Color variation
+        Renderer r = obj.GetComponent<Renderer>();
+
+        int colorType = Random.Range(0, 3);
+
+        if (colorType == 0) r.material.color = Color.red;
+        if (colorType == 1) r.material.color = Color.yellow;
+        if (colorType == 2) r.material.color = Color.blue;
     }
 
     int RandomLane()
