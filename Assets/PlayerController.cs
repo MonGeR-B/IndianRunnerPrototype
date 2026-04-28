@@ -4,8 +4,10 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    public AudioSource audioSource;
+    private Animator anim;
+    private Rigidbody rb;
 
+    public AudioSource audioSource;
     public AudioClip jumpSound;
     public AudioClip hitSound;
 
@@ -30,16 +32,17 @@ public class PlayerController : MonoBehaviour
     private float lastHitTime = -10f;
     private float hitCooldown = 10f;
 
-    private Rigidbody rb;
-
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
+        anim.SetBool("isRunning", true);
+
         if (isGameOver)
         {
             if (Input.GetKeyDown(KeyCode.R))
@@ -55,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
 
-        // Lane
+        // Lane movement
         if (Input.GetKeyDown(KeyCode.A))
             targetLane = Mathf.Max(0, targetLane - 1);
 
@@ -72,6 +75,8 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = true;
             verticalVelocity = jumpSpeed;
+
+            anim.SetTrigger("Jump");
             audioSource.PlayOneShot(jumpSound);
         }
 
@@ -101,6 +106,9 @@ public class PlayerController : MonoBehaviour
     {
         isSliding = true;
 
+        anim.SetTrigger("Slide");
+
+        // Temporary visual slide (replace with collider adjustment later)
         transform.localScale = new Vector3(1, 0.5f, 1);
 
         yield return new WaitForSeconds(slideDuration);
@@ -120,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
         Obstacle obstacle = collision.gameObject.GetComponent<Obstacle>();
 
-        // 🧠 CORE LOGIC
+        // Obstacle logic
         if (obstacle != null)
         {
             if (obstacle.type == ObstacleType.Tall && isJumping)
@@ -157,6 +165,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator HandleHit()
     {
         isHitProcessing = true;
+
         audioSource.PlayOneShot(hitSound);
 
         rb.linearVelocity = Vector3.zero;

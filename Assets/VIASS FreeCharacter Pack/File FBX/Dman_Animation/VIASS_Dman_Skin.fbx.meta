@@ -1,144 +1,5 @@
 fileFormatVersion: 2
 guid: d49af8694c5ff854eae4c1f1f307bdd8
-timeCreated: 1552025702
-licenseType: Store
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Character
-    100002: DeliveryMan_mesh
-    100004: Dman_head_TopSHJnt
-    100006: Dman_l_Arm_ClavicleSHJnt
-    100008: Dman_l_Arm_ElbowSHJnt
-    100010: Dman_l_Arm_ShoulderSHJnt
-    100012: Dman_l_Arm_WristSHJnt
-    100014: Dman_l_Fingers_01_01SHJnt
-    100016: Dman_l_Fingers_02_01SHJnt
-    100018: Dman_l_Leg_AnkleSHJnt
-    100020: Dman_l_Leg_BallSHJnt
-    100022: Dman_l_Leg_HipSHJnt
-    100024: Dman_l_Leg_KneeSHJnt
-    100026: Dman_l_Leg_ToeSHJnt
-    100028: Dman_r_Arm_ClavicleSHJnt
-    100030: Dman_r_Arm_ElbowSHJnt
-    100032: Dman_r_Arm_ShoulderSHJnt
-    100034: Dman_r_Arm_WristSHJnt
-    100036: Dman_r_Fingers_01_01SHJnt
-    100038: Dman_r_Fingers_02_01SHJnt
-    100040: Dman_r_Leg_AnkleSHJnt
-    100042: Dman_r_Leg_BallSHJnt
-    100044: Dman_r_Leg_HipSHJnt
-    100046: Dman_r_Leg_KneeSHJnt
-    100048: Dman_r_Leg_ToeSHJnt
-    100050: Dman_ROOTSHJnt
-    100052: Dman_Spline_01SHJnt
-    100054: Dman_Spline_02SHJnt
-    100056: Dman_Spline_TopSHJnt
-    100058: //RootNode
-    400000: Character
-    400002: DeliveryMan_mesh
-    400004: Dman_head_TopSHJnt
-    400006: Dman_l_Arm_ClavicleSHJnt
-    400008: Dman_l_Arm_ElbowSHJnt
-    400010: Dman_l_Arm_ShoulderSHJnt
-    400012: Dman_l_Arm_WristSHJnt
-    400014: Dman_l_Fingers_01_01SHJnt
-    400016: Dman_l_Fingers_02_01SHJnt
-    400018: Dman_l_Leg_AnkleSHJnt
-    400020: Dman_l_Leg_BallSHJnt
-    400022: Dman_l_Leg_HipSHJnt
-    400024: Dman_l_Leg_KneeSHJnt
-    400026: Dman_l_Leg_ToeSHJnt
-    400028: Dman_r_Arm_ClavicleSHJnt
-    400030: Dman_r_Arm_ElbowSHJnt
-    400032: Dman_r_Arm_ShoulderSHJnt
-    400034: Dman_r_Arm_WristSHJnt
-    400036: Dman_r_Fingers_01_01SHJnt
-    400038: Dman_r_Fingers_02_01SHJnt
-    400040: Dman_r_Leg_AnkleSHJnt
-    400042: Dman_r_Leg_BallSHJnt
-    400044: Dman_r_Leg_HipSHJnt
-    400046: Dman_r_Leg_KneeSHJnt
-    400048: Dman_r_Leg_ToeSHJnt
-    400050: Dman_ROOTSHJnt
-    400052: Dman_Spline_01SHJnt
-    400054: Dman_Spline_02SHJnt
-    400056: Dman_Spline_TopSHJnt
-    400058: //RootNode
-    4300000: DeliveryMan_mesh
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: DeliveryMan_mesh
-  materials:
-    importMaterials: 1
-    materialName: 0
-    materialSearch: 1
-  animations:
-    legacyGenerateAnimations: 4
-    bakeSimulation: 0
-    resampleCurves: 1
-    optimizeGameObjects: 0
-    motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
-    animationWrapMode: 0
-    extraExposedTransformPaths: []
-    clipAnimations: []
-    isReadable: 1
-  meshes:
-    lODScreenPercentages: []
-    globalScale: 1
-    meshCompression: 0
-    addColliders: 0
-    importBlendShapes: 1
-    swapUVChannels: 0
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-    secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
-    secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 4
-    useFileScale: 1
-  tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
-    tangentImportMode: 3
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-    human: []
-    skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
-    feetSpacing: 0
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-    hasTranslationDoF: 0
-    hasExtraRoot: 1
-    skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
-  humanoidOversampling: 1
-  additionalBone: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 141471
@@ -146,3 +7,323 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman_Skin.fbx
   uploadId: 298704
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Character
+  - first:
+      1: 100002
+    second: DeliveryMan_mesh
+  - first:
+      1: 100004
+    second: Dman_head_TopSHJnt
+  - first:
+      1: 100006
+    second: Dman_l_Arm_ClavicleSHJnt
+  - first:
+      1: 100008
+    second: Dman_l_Arm_ElbowSHJnt
+  - first:
+      1: 100010
+    second: Dman_l_Arm_ShoulderSHJnt
+  - first:
+      1: 100012
+    second: Dman_l_Arm_WristSHJnt
+  - first:
+      1: 100014
+    second: Dman_l_Fingers_01_01SHJnt
+  - first:
+      1: 100016
+    second: Dman_l_Fingers_02_01SHJnt
+  - first:
+      1: 100018
+    second: Dman_l_Leg_AnkleSHJnt
+  - first:
+      1: 100020
+    second: Dman_l_Leg_BallSHJnt
+  - first:
+      1: 100022
+    second: Dman_l_Leg_HipSHJnt
+  - first:
+      1: 100024
+    second: Dman_l_Leg_KneeSHJnt
+  - first:
+      1: 100026
+    second: Dman_l_Leg_ToeSHJnt
+  - first:
+      1: 100028
+    second: Dman_r_Arm_ClavicleSHJnt
+  - first:
+      1: 100030
+    second: Dman_r_Arm_ElbowSHJnt
+  - first:
+      1: 100032
+    second: Dman_r_Arm_ShoulderSHJnt
+  - first:
+      1: 100034
+    second: Dman_r_Arm_WristSHJnt
+  - first:
+      1: 100036
+    second: Dman_r_Fingers_01_01SHJnt
+  - first:
+      1: 100038
+    second: Dman_r_Fingers_02_01SHJnt
+  - first:
+      1: 100040
+    second: Dman_r_Leg_AnkleSHJnt
+  - first:
+      1: 100042
+    second: Dman_r_Leg_BallSHJnt
+  - first:
+      1: 100044
+    second: Dman_r_Leg_HipSHJnt
+  - first:
+      1: 100046
+    second: Dman_r_Leg_KneeSHJnt
+  - first:
+      1: 100048
+    second: Dman_r_Leg_ToeSHJnt
+  - first:
+      1: 100050
+    second: Dman_ROOTSHJnt
+  - first:
+      1: 100052
+    second: Dman_Spline_01SHJnt
+  - first:
+      1: 100054
+    second: Dman_Spline_02SHJnt
+  - first:
+      1: 100056
+    second: Dman_Spline_TopSHJnt
+  - first:
+      1: 100058
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Character
+  - first:
+      4: 400002
+    second: DeliveryMan_mesh
+  - first:
+      4: 400004
+    second: Dman_head_TopSHJnt
+  - first:
+      4: 400006
+    second: Dman_l_Arm_ClavicleSHJnt
+  - first:
+      4: 400008
+    second: Dman_l_Arm_ElbowSHJnt
+  - first:
+      4: 400010
+    second: Dman_l_Arm_ShoulderSHJnt
+  - first:
+      4: 400012
+    second: Dman_l_Arm_WristSHJnt
+  - first:
+      4: 400014
+    second: Dman_l_Fingers_01_01SHJnt
+  - first:
+      4: 400016
+    second: Dman_l_Fingers_02_01SHJnt
+  - first:
+      4: 400018
+    second: Dman_l_Leg_AnkleSHJnt
+  - first:
+      4: 400020
+    second: Dman_l_Leg_BallSHJnt
+  - first:
+      4: 400022
+    second: Dman_l_Leg_HipSHJnt
+  - first:
+      4: 400024
+    second: Dman_l_Leg_KneeSHJnt
+  - first:
+      4: 400026
+    second: Dman_l_Leg_ToeSHJnt
+  - first:
+      4: 400028
+    second: Dman_r_Arm_ClavicleSHJnt
+  - first:
+      4: 400030
+    second: Dman_r_Arm_ElbowSHJnt
+  - first:
+      4: 400032
+    second: Dman_r_Arm_ShoulderSHJnt
+  - first:
+      4: 400034
+    second: Dman_r_Arm_WristSHJnt
+  - first:
+      4: 400036
+    second: Dman_r_Fingers_01_01SHJnt
+  - first:
+      4: 400038
+    second: Dman_r_Fingers_02_01SHJnt
+  - first:
+      4: 400040
+    second: Dman_r_Leg_AnkleSHJnt
+  - first:
+      4: 400042
+    second: Dman_r_Leg_BallSHJnt
+  - first:
+      4: 400044
+    second: Dman_r_Leg_HipSHJnt
+  - first:
+      4: 400046
+    second: Dman_r_Leg_KneeSHJnt
+  - first:
+      4: 400048
+    second: Dman_r_Leg_ToeSHJnt
+  - first:
+      4: 400050
+    second: Dman_ROOTSHJnt
+  - first:
+      4: 400052
+    second: Dman_Spline_01SHJnt
+  - first:
+      4: 400054
+    second: Dman_Spline_02SHJnt
+  - first:
+      4: 400056
+    second: Dman_Spline_TopSHJnt
+  - first:
+      4: 400058
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: DeliveryMan_mesh
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: DeliveryMan_mesh
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: VIASS_Dman(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deliveryman_mesh
+      parentName: VIASS_Dman(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cardboard_mesh
+      parentName: Deliveryman_mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DeliveryMan_mesh
+      parentName: Deliveryman_mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
